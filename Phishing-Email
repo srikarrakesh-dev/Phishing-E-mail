@@ -1,0 +1,166 @@
+Phishing Email Analysis Report
+
+ 
+
+Email Subject:
+
+Important: Your Account Will Be Locked Within 24 Hours!"
+
+Sender Email Analysis
+
+
+
+
+
+Displayed Email: security-update@micros0ft-support.com
+
+
+
+Legitimate Domain: microsoft.com
+
+
+
+Observation: The domain is spoofed – contains “micros0ft” (with a zero instead of “o”), and a hyphenated fake subdomain.
+
+Email Header Findings (via MXToolbox Analyzer)
+
+
+
+
+
+SPF: FAIL
+
+
+
+DKIM: Missing
+
+
+
+DMARC: FAIL
+
+
+
+Return-Path: random-user@maliciousdomain.ru
+
+
+
+IP Address Origin: Russian Federation (not typical for Microsoft)
+
+Suspicious Links
+
+
+
+
+
+Visible Text: Click here to secure your account
+
+
+
+Actual URL (hovered): http://login.microsoft.secure-update-alerts.com/reset-password
+
+
+
+Observation: URL is mismatched, not part of the real microsoft.com domain.
+
+Urgent or Threatening Language
+
+
+
+
+
+Phrases Used:
+
+
+
+
+
+“Immediate action required”
+
+
+
+“Failure to respond will result in account lock”
+
+
+
+“You only have 24 hours”
+
+
+
+Purpose: To create panic and trick the user into clicking.
+
+Attachments
+
+
+
+
+
+File Name: security-update.zip
+
+
+
+Contents: Contains a .exe file labeled secure_tool.exe
+
+
+
+Risk: This executable could be malware.
+
+Spelling & Grammar Issues
+
+
+
+
+
+Example from email:
+
+
+
+
+
+“Your account has detect unusual login activity.”
+
+
+
+“We adviced you to reset your password immidiately.”
+
+
+
+Poor grammar and spelling are common phishing indicators.
+
+This email is a confirmed phishing attempt. It uses email spoofing, fake domains, social engineering (urgency), and malicious attachments. Such emails should be reported immediately and deleted without interacting with any content.
+
+Interview Question Answers
+
+
+
+
+
+What is phishing? Phishing is a cyber attack that uses fake emails or websites to trick people into revealing personal information such as passwords, bank details, or login credentials.
+
+
+
+How to identify a phishing email? You can identify a phishing email by checking for spoofed email addresses, suspicious or mismatched links, urgent or threatening language, poor grammar, and suspicious attachments. Analyzing the email header can also help verify the sender’s authenticity.
+
+
+
+What is email spoofing? Email spoofing is when attackers forge the sender's email address to make it appear as if it’s coming from a trusted or legitimate source.
+
+
+
+Why are phishing emails dangerous? Phishing emails are dangerous because they can steal sensitive data, install malware on your device, compromise user accounts, and lead to significant financial or data loss.
+
+
+
+How can you verify the sender’s authenticity! You can verify a sender’s authenticity by using email header analysis tools to check SPF, DKIM, and DMARC records. Also, ensure the sender's domain matches the official domain of the organization.
+
+
+
+What tools can analyze email headers? Some commonly used tools for analyzing email headers include MXToolbox, Google Admin Toolbox, Mailheader.org, and Microsoft’s Message Analyzer.
+
+
+
+What actions should be taken on suspected phishing emails? If you receive a suspected phishing email, do not click any links or download attachments. Report the email to your IT or security team and then delete it from your inbox.
+
+
+
+How do attackers use social engineering in phishing? Attackers use social engineering in phishing by exploiting human emotions such as fear, urgency, or curiosity. This manipulation causes users to make impulsive decisions, like clicking a malicious link or providing confidential information.
+
